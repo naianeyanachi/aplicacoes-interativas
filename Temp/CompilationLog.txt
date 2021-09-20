@@ -1,0 +1,24 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-07d7626895f22d6cb928469cb52ccb05
+# Starting compiling UnityEngine.UI.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-1c8f4c5e7cbab32b18392af547c2ab9e
+# Starting compiling Unity.Timeline.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-85ffa7ac62c6d4f05a1e58c33dfbe3d3
+# Starting compiling Unity.TextMeshPro.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-31703a02d737be44c8e34775613dc7f9
+# Starting compiling Unity.Subsystem.Registration.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-574cfd7a86b30b8bca6f2ce41887f573
+# Starting compiling UnityEngine.SpatialTracking.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-37eeafe6fb3f8a750bc128e01d6f5d2c
+# Starting compiling Unity.XR.Management.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-e8115eb764020cb6294dbb57a47c5b81
+# Starting compiling Unity.XR.ARSubsystems.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3bccf8b4497172126ae459a89274cac3
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b5ef3790653d1f0109f413030b3dafe6
+# Starting compiling Unity.XR.ARCore.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-2197de8fa3e681666a0efecd8dfc0346
+# Starting compiling Unity.XR.ARFoundation.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-5af0687f1d6ca425ea6f301f919afa31
+# Starting compiling Google.XR.ARCoreExtensions.dll
+/home/lucas/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ee77394d3ef5be0d69771be3836f8305
