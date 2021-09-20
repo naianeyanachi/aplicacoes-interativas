@@ -153,7 +153,7 @@
 85-->[:unityLibrary] /home/lucas/teste/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:9-72:68
 86            android:name="unity.build-id"
 86-->[:unityLibrary] /home/lucas/teste/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:71:13-42
-87            android:value="61ed6f26-e171-441d-9ff7-3d77ee6d3b6d" />
+87            android:value="b762a128-2808-4d3a-ba3c-904869ec705c" />
 87-->[:unityLibrary] /home/lucas/teste/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:72:13-65
 88        <meta-data
 88-->[:unityLibrary] /home/lucas/teste/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:73:9-75:36

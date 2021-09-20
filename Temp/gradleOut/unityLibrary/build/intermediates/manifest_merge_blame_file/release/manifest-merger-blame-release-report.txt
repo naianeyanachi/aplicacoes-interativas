@@ -126,7 +126,7 @@
 70-->/home/lucas/teste/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:5-101
 71            android:name="unity.build-id"
 71-->/home/lucas/teste/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:16-45
-72            android:value="61ed6f26-e171-441d-9ff7-3d77ee6d3b6d" />
+72            android:value="b762a128-2808-4d3a-ba3c-904869ec705c" />
 72-->/home/lucas/teste/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:15:46-98
 73        <meta-data
 73-->/home/lucas/teste/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:16:5-88

@@ -69,7 +69,7 @@
             android:value="portrait|landscape" />
         <meta-data
             android:name="unity.build-id"
-            android:value="61ed6f26-e171-441d-9ff7-3d77ee6d3b6d" />
+            android:value="b762a128-2808-4d3a-ba3c-904869ec705c" />
         <meta-data
             android:name="unityplayer.SkipPermissionsDialog"
             android:value="true" />

@@ -1,4 +1,4 @@
-#Mon Sep 20 17:17:34 BRT 2021
+#Mon Sep 20 17:30:18 BRT 2021
 base.0=/home/lucas/teste/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
