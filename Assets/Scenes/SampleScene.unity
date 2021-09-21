@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465785, g: 0.49641252, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -452,6 +452,7 @@ GameObject:
   - component: {fileID: 1577749886}
   - component: {fileID: 1577749885}
   - component: {fileID: 1577749884}
+  - component: {fileID: 1577749888}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -535,6 +536,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577749888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577749883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6f6b9754b30ae88bb94300cab769ae5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1675828990
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,7 +581,7 @@ MonoBehaviour:
   SessionOrigin: {fileID: 40919615}
   CameraManager: {fileID: 1114040583}
   ARCoreExtensionsConfig: {fileID: 11400000, guid: 0c36333e02f6422a28fab53c8a928ed9, type: 2}
-  CameraConfigFilter: {fileID: 0}
+  CameraConfigFilter: {fileID: 11400000, guid: fc1ae37c80ff5d6b8aebac8565031e30, type: 2}
 --- !u!4 &1675828992
 Transform:
   m_ObjectHideFlags: 0
