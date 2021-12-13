@@ -5,6 +5,9 @@ using System;
 
 public class AnimalBasicAI : MonoBehaviour
 {
+  public HappinessBar happinessBar;
+  public HungerBar hungerBar;
+
   private float happiness;
   public float Happiness
   {
@@ -27,22 +30,22 @@ public class AnimalBasicAI : MonoBehaviour
       else this.hunger = value;
     }
   }
-  private float hygiene;
-  public float Hygiene
-  {
-    get { return this.hygiene; }
-    set
-    {
-      if (value < 0) this.hygiene = 0;
-      else if (value > 100) this.hygiene = 100;
-      else this.hygiene = value;
-    }
-  }
+  // private float hygiene;
+  // public float Hygiene
+  // {
+  //   get { return this.hygiene; }
+  //   set
+  //   {
+  //     if (value < 0) this.hygiene = 0;
+  //     else if (value > 100) this.hygiene = 100;
+  //     else this.hygiene = value;
+  //   }
+  // }
 
-  public GameObject player;
-  public GameObject food;
-  public GameObject sponge;
-  public GameObject toy;
+  // public GameObject player;
+  // public GameObject food;
+  // public GameObject sponge;
+  // public GameObject toy;
 
   Animator animator;
 
@@ -58,55 +61,62 @@ public class AnimalBasicAI : MonoBehaviour
     // this.hunger = this.hunger - 0.1 * times;
     // this.hygiene = this.hygiene - 0.1 * times;
     this.Happiness = 50f;
-    this.Hunger = 0f;
-    this.Hygiene = 100f;
+    this.happinessBar.SetMaxHappiness(100f);
+    this.happinessBar.SetHappiness(this.Happiness);
+    this.Hunger = 70f;
+    this.hungerBar.SetMaxHunger(100f);
+    this.hungerBar.SetHunger(this.Hunger);
+    // this.Hygiene = 100f;
   }
 
   // Update is called once per frame
   void Update()
   {
     // if (Datetime.now() - lastInitialization > TICK) {
-    lastInitialization = DateTime.Now;
-    this.Happiness = this.Happiness - 0.1f;
-    this.Hunger = this.Hunger + 0.1f;
-    this.Hygiene = this.Hygiene - 0.1f;
-    Debug.Log(this.Happiness);
-    Debug.Log(this.Hunger);
-    Debug.Log(this.Hygiene);
-    Debug.Log("-----------");
+    //lastInitialization = DateTime.Now;
+    this.Happiness = this.Happiness - 0.05f;
+    this.happinessBar.SetHappiness(this.Happiness);
+    
+    this.Hunger = this.Hunger - 0.01f;
+    this.hungerBar.SetHunger(this.Hunger);
+    //this.Hygiene = this.Hygiene - 0.1f;
+    // Debug.Log(this.Happiness);
+    // Debug.Log(this.Hunger);
+    // Debug.Log(this.Hygiene);
+    // Debug.Log("-----------");
     // }
   }
 
   // UI: Joao
 
-  void feed()
-  {
-    // Responsável: Naiane
-    // aparecer comida na tela do usuario e arrasta até o animal
-    // animal vai até a comida e come
-  }
+  // void feed()
+  // {
+  //   // Responsável: Naiane
+  //   // aparecer comida na tela do usuario e arrasta até o animal
+  //   // animal vai até a comida e come
+  // }
 
-  void pet()
-  {
-    // Responsável: 
-    // animal vai perto da camera
-    // espera pela ação do usuário (touch)
-    // fica feliz
-  }
+  // void pet()
+  // {
+  //   // Responsável: 
+  //   // animal vai perto da camera
+  //   // espera pela ação do usuário (touch)
+  //   // fica feliz
+  // }
 
-  void play()
-  {
-    // Responsável: 
-    // aparecer brinquedo na tela do usuario e arrasta até o animal
-    // animal vai até o brinquedo e traz de volta (?)
-  }
+  // void play()
+  // {
+  //   // Responsável: 
+  //   // aparecer brinquedo na tela do usuario e arrasta até o animal
+  //   // animal vai até o brinquedo e traz de volta (?)
+  // }
 
-  void clean()
-  {
-    // Responsável: 
-    // animal vai perto da camera
-    // espera pela ação do usuário (esfregar)
-    // ao esfregar aparece uma esponja
-    // animação de banho (?)
-  }
+  // void clean()
+  // {
+  //   // Responsável: 
+  //   // animal vai perto da camera
+  //   // espera pela ação do usuário (esfregar)
+  //   // ao esfregar aparece uma esponja
+  //   // animação de banho (?)
+  // }
 }
